@@ -32,3 +32,5 @@ The webtask will return the following:
  - **500**: Infrastructure error (configuration missing, authentication error, ...).
  - **400**: Connector is offline.
  - **200**: Connector is online.
+
+Since the webtask is now handling the "complex logic" (authentication, parsing the response, ...) you can now use any monitoring service like Pingdom, SCOM, Runscope, ... to monitor your AD Connections.
