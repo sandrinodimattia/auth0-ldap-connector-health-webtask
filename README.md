@@ -1,6 +1,6 @@
 # Auth0 - AD/LDAP Connector Health Webtask
 
-A webtask that can monitor the health of your AD Connectors in Auth0.
+A webtask that can monitor the health of your AD Connectors from Auth0's point of view (as opposed to monitoring the connector from within your own infrastructure).
 
 ## Deployment
 
