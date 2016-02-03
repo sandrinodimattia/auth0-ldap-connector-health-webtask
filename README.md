@@ -34,3 +34,5 @@ The webtask will return the following:
  - **200**: Connector is online.
 
 Since the webtask is now handling the "complex logic" (authentication, parsing the response, ...) you can now use any monitoring service like Pingdom, SCOM, Runscope, ... to monitor your AD Connections.
+
+> Note: This assumes you use the cluster from Webtask.io, if you use your Auth0 container make sure to call sandbox.it.auth0.com instead of webtask.it.auth0.com
