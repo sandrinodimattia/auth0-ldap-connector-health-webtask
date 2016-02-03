@@ -1,5 +1,7 @@
 "use latest";
 
+const request = require('request');
+
 module.exports = (ctx, req, res) => {
   const end = (statusCode, data) => {
     res.writeHead(statusCode, { 'Content-Type': 'application/json' });
